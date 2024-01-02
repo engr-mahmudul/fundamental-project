@@ -1,17 +1,19 @@
 const Header = () => {
-    let marks = 85;
+    let marks = 5;
     return (
         <div>
             <ul>
                 <li>Home</li>
                 <li>About</li>
             </ul>
-            {
-                marks>80?
-                <h1>A++</h1>
-                :
-                <h1>Pass</h1>
-            }
+            {(
+                ()=>{
+                    if (marks>80){
+                        return <h1>A+</h1>
+                    }
+                    else return <h1>Pass</h1>
+                }
+            )()}
         </div>
     );
 };
