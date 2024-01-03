@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div>
             <h1> This is Hero Section </h1>
-            <img src="https://assets.justinmind.com/wp-content/webp-express/webp-images/uploads/2018/07/10-hero-image-website-ideas-to-inspire-you-1.png.webp"/>
+            <img src="https://raw.githubusercontent.com/mahmudul-11/fundamental-project/main/src/assets/images/Image_1.JPG"/>
         </div>
     );
 };

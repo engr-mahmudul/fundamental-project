@@ -14,7 +14,7 @@ const Header = () => {
                     else return <h1>Pass</h1>
                 }
             )()}
-            <img src="https://drive.google.com/file/d/1hZKKDmRk_L0bhSqbDsNptcHcJK8Mmj3u/view" alt="image" />
+            <img src="https://github.com/mahmudul-11/fundamental-project/blob/main/src/assets/images/Image_1.JPG" alt="image" />
         </div>
     );
 };
