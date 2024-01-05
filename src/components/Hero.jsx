@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 
 const Hero = (props) => {
+    let {sentFunction} = props;
     let city = ['Dhaka', 'sylhet', 'delhi']
     let login = true
     const [value, setValue] = useState('')
@@ -31,7 +32,7 @@ const Hero = (props) => {
             onChange={(e)=>setValue(e.target.value)}
             />
 
-            <button onClick={()=>props.sentFunction(value)}> Props Testing</button>
+            <button onClick={()=>sentFunction(value)}> Props Testing</button>
         </div>
     );
 };
